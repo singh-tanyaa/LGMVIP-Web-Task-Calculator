@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=IBM+Plex+Mono:wght@300&family=Lobster&display=swap');
+/* font-family: 'Creepster', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Lobster', cursive; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calc{
+  width:320px;
+  margin:100px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: rgb(47, 46, 46); }
+ /* background-image: url('../img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+h1{
+  color:rgb(211, 228, 86);
+  font-family: 'IBM Plex Mono', monospace;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#answer{
+  background-color: aliceblue;
+  padding: 10px;
+  font-size:35px;
+  width:295px;
+  height: 45px;
+  text-align :right;
+  border: 3px #183656;
+  border-radius: 15px;
 }
-
-.App-link {
-  color: #61dafb;
+.button{
+  background-color: #183656;
+  height: 80px;
+  width:80px;
+  border-radius: 25px;
+  color:white;
+  font-size: 30px;
+  border: 1px solid black;
+  float: left;
 }
+.button1{
+  width: 80px;
+  background-color: rgb(8, 8, 7);
+  height: 80px;
+  border-radius: 25px;
+  color:rgb(101, 206, 238);
+  font-size: 30px;
+  border: 1px solid black;
+  gap:7px;
+}
+.btn{
+  background-color:black;
+  height: 60px;
+  width:64px;
+  border-radius: 25px;
+  color:rgb(101, 206, 238);
+  font-size: 30px;
+  border: 1px solid black;
+  float: left;
+}
+.ans{
+  width: 320px;
+  background-color: rgb(8, 8, 7);
+  height: 50px;
+  border-radius: 15px;
+  color:rgb(101, 206, 238);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 30px;
+  border: 1px solid black;
+  gap:7px;
+}
+.op{
+  background-color:black;
+  height: 60px;
+  width:64px;
+  border-radius: 25px;
+  color:rgb(101, 206, 238);
+  font-size: 20px;
+  border: 1px solid black;
+  float: left;
+}
+.ac{
+ 
+  height: 60px;
+  width:60px;
+  border-radius: 25px;
+  color:rgb(101, 206, 238);
+  font-size: 30px;
+  border: 1px solid black;
+  float: left;
+ background-color: rgb(8, 8, 7);
+
+}
+.on{
+  width: 80px;
+  background-color: rgb(8, 8, 7);
+  height: 80px;
+  border-radius: 25px;
+  color:rgb(101, 206, 238);
+  font-size: 30px;
+  border: 1px solid black;
+  
 }
