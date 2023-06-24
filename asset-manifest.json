@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LGMVIP-Web-Task-Calculator/static/css/main.00150677.css",
+    "main.js": "/LGMVIP-Web-Task-Calculator/static/js/main.e2ad0449.js",
+    "static/js/787.a174f9e5.chunk.js": "/LGMVIP-Web-Task-Calculator/static/js/787.a174f9e5.chunk.js",
+    "index.html": "/LGMVIP-Web-Task-Calculator/index.html",
+    "main.00150677.css.map": "/LGMVIP-Web-Task-Calculator/static/css/main.00150677.css.map",
+    "main.e2ad0449.js.map": "/LGMVIP-Web-Task-Calculator/static/js/main.e2ad0449.js.map",
+    "787.a174f9e5.chunk.js.map": "/LGMVIP-Web-Task-Calculator/static/js/787.a174f9e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00150677.css",
+    "static/js/main.e2ad0449.js"
+  ]
+}
